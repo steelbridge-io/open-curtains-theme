@@ -1,0 +1,32 @@
+/** Sign Up
+--------------------- */
+
+#sign-up-page {
+  h4 {
+    a {
+      color: $white !important;
+    }
+  }
+  .woocommerce-Price-amount.amount, .subscription-details {
+    color: $red;
+  }
+}
+
+#wppb-register-user-actor {
+  span.wppb-description-delimiter {
+    color: $white-smoke;
+  }
+  label {
+    color: $white-smoke;
+  }
+  h4 {
+    color: $white-smoke;
+  }
+  .form-submit {
+    input {
+      background: $red;
+      border-radius: 0;
+      color: $white-smoke;
+    }
+  }
+}
