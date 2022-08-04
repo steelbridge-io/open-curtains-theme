@@ -290,4 +290,21 @@
   color: #f5f5f5;
 }
 
+/** Lost Password */
+#lost-password #pms_recover_password_form p {
+  color: #f5f5f5 !important;
+}
+#lost-password #pms_recover_password_form input[type=submit] {
+  background-color: #b10000;
+  color: #f5f5f5;
+}
+#lost-password #pms_recover_password_form label {
+  color: #f5f5f5;
+}
+
+/** Action Section */
+.action_button.top-bar-right-button {
+  display: none !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
