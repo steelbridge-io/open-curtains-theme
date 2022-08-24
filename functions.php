@@ -40,8 +40,6 @@ function mfnch_enqueue_styles()
 
 	// enqueue the parent RTL stylesheet
 
-	wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/custom.css');
-
 	if (is_rtl()) {
 		wp_enqueue_style('mfn-rtl', get_template_directory_uri() . '/rtl.css');
 	}
@@ -49,6 +47,8 @@ function mfnch_enqueue_styles()
 	// enqueue bootstrap css
 
 	wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css', array(), '5.2.0', 'all');
+
+  wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/custom.css');
 
 	// enqueue the child stylesheet
 

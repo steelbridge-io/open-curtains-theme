@@ -1,0 +1,19 @@
+/** Cart */
+
+.cart-empty {
+  &:nth-child(2) {
+    font-size: 2rem;
+  }
+  p {
+    color: $white-smoke !important;
+  }
+}
+
+.return-to-shop {
+  background-color: $red;
+  color: $white-smoke;
+  a.button {
+    background-color: $red !important;
+    color: $white-smoke !important;
+  }
+}

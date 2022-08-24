@@ -2,6 +2,14 @@
 
 #header_cart {
   color: $white !important;
+  display: none !important;
+}
+
+.page-id-63 {
+  #header_cart {
+    color: $white !important;
+    display: flex !important;
+  }
 }
 
 .logo-main.scale-with-grid {

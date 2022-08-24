@@ -1,5 +1,11 @@
 /** Footer */
 
+ul.ftr-lnks,
+ul.ftr-info,
+ul.ftr-scl {
+  padding-left: 0 !important;
+}
+
 .wpcf7-form.init {
   .column.four-fifth.ftr-frm {
     width: 60%;

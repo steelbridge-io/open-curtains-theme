@@ -3,6 +3,12 @@
 /** Header */
 #header_cart {
   color: #fff !important;
+  display: none !important;
+}
+
+.page-id-63 #header_cart {
+  color: #fff !important;
+  display: flex !important;
 }
 
 .logo-main.scale-with-grid {
@@ -179,44 +185,6 @@
   display: none;
 }
 
-/** Footer */
-.wpcf7-form.init .column.four-fifth.ftr-frm {
-  width: 60%;
-  padding: 0 7px 10px 0px;
-}
-
-@media (max-width: 1023.99px) {
-  .footer-content {
-    text-align: center;
-  }
-  .footer-content img {
-    margin: 0 auto;
-    display: block;
-  }
-  .footer-content .ftr-scl {
-    text-align: center;
-  }
-
-  #Footer #block-8 {
-    margin-left: 0px !important;
-  }
-
-  #company {
-    text-align: center;
-  }
-
-  #quick-link {
-    text-align: center;
-  }
-
-  #stay-in-touch {
-    text-align: center;
-  }
-
-  .wpcf7-form.init .column.four-fifth.ftr-frm {
-    width: 100%;
-  }
-}
 /** Gravity Forms */
 #gform_wrapper_3 h2 {
   color: #fff;
@@ -305,6 +273,68 @@
 /** Action Section */
 .action_button.top-bar-right-button {
   display: none !important;
+}
+
+/** Cart */
+.cart-empty:nth-child(2) {
+  font-size: 2rem;
+}
+.cart-empty p {
+  color: #f5f5f5 !important;
+}
+
+.return-to-shop {
+  background-color: #b10000;
+  color: #f5f5f5;
+}
+.return-to-shop a.button {
+  background-color: #b10000 !important;
+  color: #f5f5f5 !important;
+}
+
+/** Footer */
+ul.ftr-lnks,
+ul.ftr-info,
+ul.ftr-scl {
+  padding-left: 0 !important;
+}
+
+.wpcf7-form.init .column.four-fifth.ftr-frm {
+  width: 60%;
+  padding: 0 7px 10px 0px;
+}
+
+@media (max-width: 1023.99px) {
+  .footer-content {
+    text-align: center;
+  }
+  .footer-content img {
+    margin: 0 auto;
+    display: block;
+  }
+  .footer-content .ftr-scl {
+    text-align: center;
+  }
+
+  #Footer #block-8 {
+    margin-left: 0px !important;
+  }
+
+  #company {
+    text-align: center;
+  }
+
+  #quick-link {
+    text-align: center;
+  }
+
+  #stay-in-touch {
+    text-align: center;
+  }
+
+  .wpcf7-form.init .column.four-fifth.ftr-frm {
+    width: 100%;
+  }
 }
 
 /*# sourceMappingURL=custom.css.map */
