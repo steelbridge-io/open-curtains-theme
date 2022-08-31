@@ -24,6 +24,17 @@
   }
 }
 
+#wppb-facet-imdb_link_directors {
+  label {
+    width: 100%;
+    button {
+      background-color: $red;
+      height: 46px;
+      border-radius: 0;
+    }
+  }
+}
+
 .select2-selection__rendered {
   li {
     width: 90% !important;

@@ -366,6 +366,15 @@ ul.ftr-scl {
   width: 18%;
 }
 
+#wppb-facet-imdb_link_directors label {
+  width: 100%;
+}
+#wppb-facet-imdb_link_directors label button {
+  background-color: #b10000;
+  height: 46px;
+  border-radius: 0;
+}
+
 .select2-selection__rendered li {
   width: 90% !important;
   position: initial !important;
