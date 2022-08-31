@@ -1,0 +1,39 @@
+/** Actor Listing */
+
+.card-row.row {
+  margin-top: 4em;
+  padding-top: 4em;
+}
+
+.faceted-menus {
+  ul.wppb-faceted-list {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    justify-content: center;
+    li:nth-child(1) {
+      flex:0 0 100%;
+      /*position: absolute;*/
+    }
+    li:nth-child(n+2) {
+      flex-basis: 25%;
+      flex-grow: 0;
+      width: 18%;
+    }
+  }
+}
+
+.select2-selection__rendered {
+  li {
+    width: 90% !important;
+    position: initial !important;
+  }
+}
+
+#wppb-remove-facets-container {
+  display: initial;
+  li {
+    width: 100% !important;
+  }
+}

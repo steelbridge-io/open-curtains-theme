@@ -7,8 +7,13 @@
     color: $white-smoke !important;
     padding: 1em 2em;
     border-radius: 0;
+    &:hover {
+      background: $red !important;
+      opacity: 1.0;
+    }
   }
   &.send-message a {
   color: $white-smoke;
   }
 }
+

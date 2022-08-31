@@ -1,6 +1,8 @@
 /** Talent Grid */
 
 #card-container {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 1.618em;
   .talent-col {
     margin: 1.618em auto;
   }
@@ -38,7 +40,7 @@
 
 .wppb-ul-range-values.age {
   color: $white;
-  padding: 0 0 .2em 0;
+  padding: 5px 0;
 }
 
 #wppb-facet-age {
@@ -48,7 +50,6 @@
 
 .search-label {
   color: $white;
-  margin-left: 1.618em;
 }
 
 .wppb-faceted-list .ui-widget-header {
