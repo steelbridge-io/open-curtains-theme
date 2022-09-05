@@ -69,7 +69,6 @@ a.elementor-post__read-more {
 
 /** Talent Grid */
 #card-container {
-  background-color: rgba(0, 0, 0, 0.8);
   padding: 1.618em;
 }
 #card-container .talent-col {
@@ -188,11 +187,17 @@ a.elementor-post__read-more {
   font-size: 1.2rem;
   color: #fff;
   border-color: var(--tabs-active-border-color, transparent);
+  text-align: center;
+  display: block;
 }
 .user-page-link a {
   background: #b10000;
   color: #fff;
   padding: 0.6em 1.29em 0.6em 1.29em;
+}
+.user-page-link a:hover {
+  background: #b10000;
+  color: #fff;
 }
 
 .my-account-btn a {
