@@ -1,0 +1,38 @@
+/** Shop */
+
+body.post-type-archive-product {
+
+  #Wrapper {
+    #Content {
+      background: url('https://opencurtainscasting.com/wp-content/uploads/2021/10/Group-224.jpg') !important;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+      background-size: cover;
+      background-color: transparent !important;
+
+      h4 a {
+        color: $white-smoke;
+      }
+
+      .subscription-details {
+        color: $red;
+      }
+
+      .woocommerce-Price-amount.amount {
+        color: $red;
+      }
+
+      .products_wrapper {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 1em;
+      }
+    }
+  }
+
+}
+
+
+#Wrapper {
+  background-color: transparent !important;
+}

@@ -17,3 +17,31 @@
   }
 }
 
+.coupon {
+  button {
+    background-color: $red !important;
+  }
+}
+
+.shop_table {
+  button {
+    background-color: $red !important;
+    color: $white-smoke !important;
+  }
+}
+
+.checkout-button.button.alt.wc-forward {
+  background-color: $red !important;
+  br {
+    display: none !important;
+  }
+}
+
+.button.wc-backward {
+  br {
+    display: none !important;
+  }
+}
+
+
+

@@ -24,10 +24,45 @@
 .card.demo-reel-card {
   background: transparent;
   border: none;
+  margin-bottom: 1.618em;
 }
 
 #send-private-message {
   display: none !important;
+}
+
+.select2-container {
+  .select2-selection--single {
+    height: 50px !important;
+  }
+  .select2-selection__arrow {
+    top: 10px !important;
+  }
+}
+
+.profile.public {
+  .wppb-back-span {
+    margin: 2em 0;
+    a {
+      padding: 1em 2em;
+      background-color: $red;
+      color: $white-smoke;
+    }
+  }
+}
+
+#head-shot {
+  &.row {
+    col-lg-4 {
+      margin: 0.5em;
+    }
+  }
+}
+
+.profile {
+  a {
+    color: $red;
+  }
 }
 
 /*.my-profile {

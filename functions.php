@@ -85,7 +85,7 @@ function wppbc_current_user_link( $atts, $content ) {
 		//$id = get_current_user_id();
 		$user = $current_user->user_login;
 		// make sure to change the URL to represent your setup.
-		return "<a href='https://opencurtains.parsonshosting.dev/members/{$user}'>View Your User Page Here</a>";
+		return "<a href='https://opencurtainscasting.com/members/{$user}'>View Your User Page Here</a>";
 	}
 
 	return ;

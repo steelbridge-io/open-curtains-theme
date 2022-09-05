@@ -1,5 +1,78 @@
 /** Cart */
 
+a.mfn-woo-cart-link {
+  color: $red !important;
+}
+
+a.restore-item {
+  color: $red !important;
+}
+
+.close.mfn-close-icon {
+  icon {
+    color: $red !important;
+  }
+}
+
+.product-remove {
+  a .icon {
+    color: $red;
+  }
+  .mfn-close-icon:hover .icon {
+    color: $red !important;
+  }
+}
+
+body.page-id-63 {
+  h4 {
+    color: $white-smoke !important;
+  }
+}
+
+.cart-subtotal {
+  th {
+    color: $white-smoke !important;
+  }
+}
+
+bdi {
+  color: $white-smoke !important;
+}
+
+.recurring-totals {
+  th {
+    color: $white-smoke !important;
+  }
+}
+
+.cart-subtotal.recurring-total {
+  th {
+    color: $white-smoke !important;
+  }
+
+  td {
+    color: $white-smoke !important;
+  }
+}
+
+.order-total {
+  th {
+    color: $white-smoke !important;
+  }
+}
+
+.order-total.recurring-total {
+  th {
+    color: $white-smoke !important;
+  }
+  td {
+    color: $white-smoke !important;
+  }
+  .woocommerce-Price-amount.amount {
+    color: $white-smoke !important;
+  }
+}
+
 .cart-empty {
   &:nth-child(2) {
     font-size: 2rem;

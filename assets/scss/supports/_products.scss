@@ -1,0 +1,15 @@
+/** Products */
+.single {
+  .products_wrapper {
+    ul.products {
+      display: flex;
+
+      li.product {
+        margin: 0 auto !important;
+        h4 a {
+          color: $white-smoke !important;
+        }
+      }
+    }
+  }
+}

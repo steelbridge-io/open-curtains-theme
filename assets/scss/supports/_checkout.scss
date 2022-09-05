@@ -1,0 +1,25 @@
+/** Check Out */
+
+body.page-id-64 {
+  a {
+    color: $red;
+  }
+  .woocommerce-info {
+    color: $white-smoke;
+  }
+  h3, h4 {
+    color: $white-smoke;
+  }
+  label {
+    color: $white-smoke;
+  }
+
+  .shop_table.woocommerce-checkout-review-order-table {
+    th, td {
+      color: $white-smoke;
+    }
+  }
+  #place_order {
+    background-color: $red !important;
+  }
+}

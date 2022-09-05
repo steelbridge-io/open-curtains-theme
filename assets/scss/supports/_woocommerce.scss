@@ -1,0 +1,55 @@
+/** Woocommerce */
+
+.subscription-details {
+  color: $red;
+}
+
+.woocommerce-notices-wrapper {
+  margin-top: 5em;
+  .alert {
+    margin: 0 auto;
+    width: 36vw;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .alert_wrapper {
+    color: $white-smoke;
+    .button {
+      background-color: $red !important;
+    }
+  }
+}
+
+/* Cart */
+body.page-id-63 {
+
+  .woocommerce-cart-form {
+    .cart {
+      th {
+        color: $white-smoke !important;
+      }
+    }
+  }
+  .woocommerce-cart-form__cart-item.cart_item {
+    .product-name a {
+      color: $red !important;
+    }
+  }
+
+  .product-price {
+    .woocommerce-Price-amount.amount {
+      color: $red !important;
+    }
+    .subscription-details {
+      color: $red;
+    }
+  }
+
+  .product-quantity {
+    color: $red !important;
+  }
+
+  .product-subtotal {
+    color: $red !important;
+  }
+
+}

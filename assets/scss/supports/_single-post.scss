@@ -1,0 +1,23 @@
+/** Single Post */
+
+.single-post {
+  .product_image_wrapper.column.one-second {
+    display: none;
+  }
+  .column.one.post-nav.minimal {
+    display: none;
+  }
+  .fixed-nav.fixed-nav-next {
+    display: none;
+  }
+  .entry-summary.column.one-second {
+    width: 100%;
+    margin-top: 1.618em;
+  }
+  .product_meta {
+    display: none;
+  }
+  .share-simple-wrapper {
+    display: none;
+  }
+}

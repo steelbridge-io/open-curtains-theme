@@ -1,0 +1,53 @@
+/** Custom Theme CSS */
+
+.header-transparent.ab-hide #Top_bar { top: 0px !important; }
+#Top_bar.is-sticky { background-color: #000 !important; }
+#Top_bar .action_button { background-color: rgb(0 0 0 / 0%) !important; padding: 0 px 0 px !important; font-size: 20px; color: #fff !important; }
+
+#Footer .widget {margin: 10px 0px !important; padding: 0px 0px !important;}
+#Footer p { font-size: 18px; line-height: 28px; }
+#Footer a { font-size: 18px; line-height: 30px; }
+#Footer h4 { font-size: 25px; line-height: 35px; margin-bottom: 20px;  }
+#Footer .footer_copy { border-top: unset; }
+#Footer .footer_copy .one { margin-bottom: 10px; padding-top: 0px;}
+.ftr-scl { margin-top: 40px; margin-left: 20px; }
+.ftr-scl li i { font-size: 30px; color: #fff; }
+.ftr-scl li i:hover { color: #b10000; }
+.ftr-scl li { display: inline-flex; margin: 0px 8px; }
+.ftr-info li { display: inline-flex; margin: 5px 0px !important; }
+.ftr-info li i { padding-right: 8px; font-size: 20px; }
+.ftr-info li p { margin-bottom: 0px; }
+.ftr-info { margin-top: 20px; }
+.ftr-lnks li a { text-transform: uppercase; }
+#Footer .copyright { font-size: 18px; line-height: 28px; }
+#Footer .widgets_wrapper { padding: 100px 0px 50px 0px ; }
+#Footer #block-8 { margin-left: 70px; }
+#Footer #block-7 { margin-left: 70px; }
+#Footer #block-5 { margin-top: 30px !important; }
+.ftr-frm input.wpcf7-form-control.wpcf7-text.wpcf7-email { background-color: #fff !important; border-radius: 4px; border: 1px solid #d86731; height: 40px ; font-size: 16px; color: #000; }
+.ftr-frm button.wpcf7-submit { background-color: #fff !important; border-radius: 4px ; border: 1px solid #d86731; font-size: 22px; color: #000; padding: 0px 15px; margin-left: -8px; height: 38px; }.ftr-frm img.ajax-loader { position: absolute; }
+
+
+.btn-one { text-transform: uppercase; font-size: 18px; display: inline-block; text-decoration: none !important; font-weight: 400; color: #fff; background-color: #B10000; border-radius: 5px; transition: all 0.25s ease; margin-top: 10px; padding: 12px 40px; } .btn-one:hover { background-color: #4F080A; transform: translateY(-8px); filter: drop-shadow(4px 4px 4px rgba(0, 0, 0, .25)); color: #fff; border-radius: 50px; }
+
+
+.hme-txt-one h4 { color: #b10000; font-size: 30px; line-height: 40px; }
+.hme-txt-one h4 span { color: #000; }
+.hme-img-two img { width: 100% !important; }
+.img-bx { position: fixed; right: -25%; top: 20%; }
+
+.hm-zm-bx { margin: 8px 8px; width: 32% !important; transition: all 0.8s ease-in-out; filter: brightness(0.8); z-index: 20; } .hm-zm-bx img { width: 100%; } .hm-zm-bx:hover { box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.18); transform: scale(1.2); border-radius: 5px; overflow: hidden; z-index: 9999; position: relative; } .hm-zm-bx .zoom_box .desc { background-color: rgb(0 0 0 / 48%) !important; } .hm-zm-bx .desc_txt { font-size: 30px !important; line-height: 40px !important; letter-spacing: 1px; color: #fff !important; }
+
+.easyjobs-frontend-wrapper.easyjobs-landing-page {
+  background-color: #f5f7fd00;
+  width: 80% !important;
+  max-width: 1200%;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+.page-id-38 div#Top_bar {
+  background: #000;
+}
+
