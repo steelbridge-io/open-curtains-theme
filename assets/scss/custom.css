@@ -247,7 +247,6 @@ a.elementor-post__read-more {
 
 /** BuddyPress */
 #buddypress {
-  background-color: rgba(0, 0, 0, 0.9);
   padding: 1.618em;
 }
 
@@ -323,6 +322,12 @@ a.elementor-post__read-more {
 
 .button.wc-backward br {
   display: none !important;
+}
+
+.form-submit .submit.button {
+  background-color: #b10000;
+  border-radius: 0;
+  color: #f5f5f5;
 }
 
 /** Lost Password */
