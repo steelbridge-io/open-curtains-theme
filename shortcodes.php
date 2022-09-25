@@ -62,3 +62,12 @@ function buddydev_private_message_button_shortcode( $atts, $content = '' ) {
 }
 
 add_shortcode( 'bp-pm-button', 'buddydev_private_message_button_shortcode' );
+
+// Shortcode to output custom PHP in Elementor
+function wpc_elementor_shortcode( $atts ) {
+
+ if ($post->post_author == $current_user->ID) { ?>
+   <p><a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $post->ID ) ?>">Delete post</a></p>
+<?php }
+}
+add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');
