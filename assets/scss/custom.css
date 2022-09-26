@@ -1,6 +1,4 @@
-/** Colors */
-/** Typography */
-/** Header */
+/** Colors */ /** Typography */ /** Header */
 #header_cart {
   color: #fff !important;
   display: none !important;
@@ -443,23 +441,18 @@ ul.ftr-scl {
   .footer-content .ftr-scl {
     text-align: center;
   }
-
   #Footer #block-8 {
     margin-left: 0px !important;
   }
-
   #company {
     text-align: center;
   }
-
   #quick-link {
     text-align: center;
   }
-
   #stay-in-touch {
     text-align: center;
   }
-
   .wpcf7-form.init .column.four-fifth.ftr-frm {
     width: 100%;
   }
@@ -849,6 +842,177 @@ body.page-id-64 .shop_table.woocommerce-checkout-review-order-table th, body.pag
 }
 body.page-id-64 #place_order {
   background-color: #b10000 !important;
+}
+
+/** User Front End Plugin */
+#invalid-post-info .wpuf-info {
+  display: none;
+}
+
+.wpuf-submit-button,
+#wpuf-post-draft {
+  background-color: #b10000 !important;
+  color: #f5f5f5 !important;
+  border-radius: 0 !important;
+}
+
+#wpuf-post-draft {
+  font-family: "Futura Lt BT" !important;
+}
+
+.wpuf-dashboard-container {
+  background-color: #343840;
+  padding: 1.618em;
+}
+
+.wpuf-submit {
+  display: flex;
+}
+.wpuf-submit .wpuf-submit-button {
+  margin-right: 0.5em;
+}
+
+.wpuf-menu-item.dashboard {
+  display: none !important;
+}
+
+.wpuf-menu-item.edit-profile {
+  display: none !important;
+}
+
+@media (min-width: 1119px) {
+  #wpuf-cont .wpuf-menu-item {
+    margin: 0 0 3em 0;
+  }
+  #wpuf-cont .wpuf-menu-item.post a {
+    background-color: #b10000;
+    color: #f5f5f5 !important;
+    padding: 1em 4.1em;
+    margin-bottom: 1em;
+  }
+  #wpuf-cont .wpuf-menu-item.submit-post a {
+    background-color: #b10000;
+    color: #f5f5f5 !important;
+    padding: 1em 2em;
+    margin-bottom: 1em;
+  }
+  #wpuf-cont .wpuf-menu-item.active a {
+    color: #000 !important;
+  }
+  #wpuf-cont .items-table tbody tr td.data-column {
+    color: #f5f5f5;
+  }
+  #wpuf-cont .items-table tbody tr td a {
+    color: #f5f5f5 !important;
+  }
+}
+.items-table-container {
+  width: 100%;
+  padding: 1em;
+}
+
+.wpuf-dashboard-navigation ul {
+  margin-top: 1.7em !important;
+}
+.wpuf-dashboard-navigation ul li {
+  display: inherit !important;
+}
+
+.wpuf-posts-options.wpuf-posts-edit,
+.wpuf-posts-options.wpuf-posts-delete {
+  float: none !important;
+}
+
+@media (max-width: 1118.99px) {
+  #wpuf-cont .wpuf-menu-item {
+    margin: 0 0 3em 0;
+  }
+  #wpuf-cont .wpuf-menu-item.post a {
+    background-color: #b10000;
+    color: #f5f5f5 !important;
+    padding: 1em 3.5em;
+  }
+  #wpuf-cont .wpuf-menu-item.submit-post a {
+    background-color: #b10000;
+    color: #f5f5f5 !important;
+    padding: 1em;
+  }
+  #wpuf-cont .wpuf-menu-item.active a {
+    color: #000 !important;
+  }
+  #wpuf-cont .items-table tbody tr td.data-column {
+    color: #f5f5f5;
+  }
+  #wpuf-cont .items-table tbody tr td a {
+    color: #f5f5f5 !important;
+  }
+}
+@media (max-width: 991.99px) {
+  .post-edit-icon {
+    display: none !important;
+  }
+  .wpuf-dashboard-navigation ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .items-table.post td {
+    display: inherit !important;
+    color: #f5f5f5 !important;
+  }
+  .items-table.post td.data-column {
+    display: inherit !important;
+  }
+}
+/** Post Archive */
+.posts_group.lm_wrapper.grid.col-3 .post-item {
+  width: 100% !important;
+}
+
+.section.section-filters {
+  margin-top: 5em;
+}
+
+.archive #Wrapper {
+  background-image: url("https://opencurtainscasting.com/wp-content/uploads/2021/10/Group-224.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.archive #Content {
+  background-color: transparent;
+}
+.archive .post-desc-wrapper {
+  background-color: #f5f5f5;
+}
+.archive .filters_buttons {
+  background-color: #000;
+}
+.archive .filters_buttons li {
+  color: #f5f5f5;
+}
+.archive .filters_buttons li a {
+  color: #f5f5f5;
+}
+
+/** Comments */
+#reply-title {
+  color: #f5f5f5;
+}
+
+.required-field-message {
+  color: #f5f5f5;
+}
+.required-field-message .required {
+  color: red;
+}
+
+.logged-in-as a {
+  color: #b10000;
+}
+
+#comments #submit {
+  background-color: #b10000 !important;
+  border-radius: 0 !important;
 }
 
 /*# sourceMappingURL=custom.css.map */

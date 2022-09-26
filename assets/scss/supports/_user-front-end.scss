@@ -1,0 +1,164 @@
+/** User Front End Plugin */
+
+#invalid-post-info {
+  .wpuf-info {
+    display: none;
+  }
+}
+
+.wpuf-submit-button,
+ #wpuf-post-draft {
+    background-color: $red !important;
+    color: $white-smoke !important;
+    border-radius: 0 !important;
+}
+
+#wpuf-post-draft {
+  font-family: "Futura Lt BT" !important;
+}
+
+.wpuf-dashboard-container {
+  background-color: $dark-grey;
+  padding: 1.618em;
+}
+
+.wpuf-submit {
+  display: flex;
+  .wpuf-submit-button {
+    margin-right: .5em;
+  }
+}
+
+.wpuf-menu-item.dashboard {
+  display: none !important;
+}
+
+.wpuf-menu-item.edit-profile {
+  display: none !important;
+}
+
+@media (min-width: 1119px) {
+  #wpuf-cont {
+    .wpuf-menu-item {
+      margin: 0 0 3em 0;
+
+      &.post a {
+        background-color: $red;
+        color: $white-smoke !important;
+        padding: 1em 4.1em;
+        margin-bottom: 1em;
+      }
+
+      &.submit-post a {
+        background-color: $red;
+        color: $white-smoke !important;
+        padding: 1em 2em;
+        margin-bottom: 1em;
+      }
+
+      &.active a {
+        color: $black !important;
+      }
+    }
+
+    .items-table {
+      tbody {
+        tr {
+          td {
+            &.data-column {
+              color: $white-smoke;
+            }
+
+            a {
+              color: $white-smoke !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.items-table-container {
+  width: 100%;
+  padding: 1em;
+}
+
+.wpuf-dashboard-navigation {
+  ul {
+    margin-top: 1.7em !important;
+    li {
+      display: inherit !important;
+    }
+  }
+}
+
+.wpuf-posts-options.wpuf-posts-edit,
+.wpuf-posts-options.wpuf-posts-delete {
+  float: none !important;
+}
+
+@media (max-width: 1118.99px) {
+  #wpuf-cont {
+    .wpuf-menu-item {
+      margin: 0 0 3em 0;
+
+      &.post a {
+        background-color: $red;
+        color: $white-smoke !important;
+        padding: 1em 3.5em;
+      }
+
+      &.submit-post a {
+        background-color: $red;
+        color: $white-smoke !important;
+        padding: 1em;
+      }
+
+      &.active a {
+        color: $black !important;
+      }
+    }
+
+    .items-table {
+      tbody {
+        tr {
+          td {
+            &.data-column {
+              color: $white-smoke;
+            }
+
+            a {
+              color: $white-smoke !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991.99px) {
+  .post-edit-icon {
+    display: none !important;
+  }
+  .wpuf-dashboard-navigation {
+    ul {
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+  .items-table {
+    &.post {
+      td {
+        display: inherit !important;
+        color: $white-smoke !important;
+      }
+      td.data-column {
+        display: inherit !important;
+      }
+    }
+  }
+
+}
+

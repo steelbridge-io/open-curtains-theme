@@ -70,4 +70,4 @@ function wpc_elementor_shortcode( $atts ) {
    <p><a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $post->ID ) ?>">Delete post</a></p>
 <?php }
 }
-add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');
+//add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');

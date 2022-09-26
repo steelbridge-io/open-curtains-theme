@@ -1,0 +1,23 @@
+/** Comments */
+
+#reply-title {
+  color: $white-smoke;
+}
+.required-field-message {
+  color: $white-smoke;
+  .required {
+    color: red;
+  }
+}
+.logged-in-as {
+  a {
+    color: $red;
+  }
+}
+
+#comments {
+  #submit {
+    background-color: $red !important;
+    border-radius: 0 !important;
+  }
+}

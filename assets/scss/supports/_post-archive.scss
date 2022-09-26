@@ -1,0 +1,33 @@
+/** Post Archive */
+
+.posts_group.lm_wrapper.grid.col-3 {
+  .post-item {
+    width: 100% !important;
+  }
+}
+.section.section-filters {
+  margin-top: 5em;
+}
+.archive {
+  #Wrapper {
+    background-image: url('https://opencurtainscasting.com/wp-content/uploads/2021/10/Group-224.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #Content {
+    background-color: transparent;
+  }
+  .post-desc-wrapper {
+    background-color: $white-smoke;
+  }
+  .filters_buttons {
+    background-color: $black;
+    li {
+      color: $white-smoke;
+      a {
+        color: $white-smoke;
+      }
+    }
+  }
+}
