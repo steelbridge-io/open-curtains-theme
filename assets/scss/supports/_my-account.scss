@@ -23,3 +23,71 @@
     color: $white !important;
   }
 }
+
+.bp-messages-content #bp-message-thread-list li:nth-child(2n) .message-content {
+  color: $black;
+  padding: 0.5em;
+}
+
+.submit {
+  #send_reply_button {
+    background-color: $red;
+    padding: 1em 2em;
+    color: $white-smoke;
+    border: none;
+  }
+}
+
+.message-metadata {
+  a {
+    strong {
+      color: $red;
+    }
+  }
+  time {
+    color: $white-smoke !important;
+  }
+}
+
+.user-link {
+  color: $red;
+}
+
+.thread-subject {
+  color: $red;
+  a.subject {
+    color: $red !important;
+  }
+}
+
+.bp-messages-content #bp-message-thread-list .message-metadata {
+  box-shadow: 0 1px 3px 0 #ccc !important;
+}
+
+.bp-messages-search-form {
+  max-height: 44.5px;
+}
+
+#message-threads li .thread-to .num-recipients {
+  color: $white-smoke !important;
+}
+
+#message-threads li .thread-content .excerpt {
+  color: $white-smoke !important;
+}
+
+.actions {
+  .message-action-view.bp-tooltip.bp-icons {
+    color: $red;
+  }
+}
+
+.preview-message {
+  p {
+    color: $black !important;
+  }
+}
+
+#forums-personal-li {
+  display: none !important;
+}

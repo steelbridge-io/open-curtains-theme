@@ -18,3 +18,22 @@
     }
   }
 }
+
+#subnav {
+  li {
+    a {
+      color: $red;
+    }
+  }
+}
+
+.bp-messages-content {
+  background-color: $dark-grey;
+  padding: 0.5em;
+}
+
+#message-threads {
+  .thread-item {
+    padding: 1em;
+  }
+}

@@ -26,6 +26,7 @@ add_filter( 'jetpack_just_in_time_msgs', '_return_false' );
  * Add Shortcodes
  */
 include 'shortcodes.php';
+include 'bbpress-shortcode.php';
 include 'manage-content-access.php';
 
 /**

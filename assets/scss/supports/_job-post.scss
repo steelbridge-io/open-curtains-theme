@@ -3,3 +3,18 @@
 .job-post-wrapper {
   background-color: transparent !important;
 }
+
+#contact-author {
+  margin: 2em 0;
+  a {
+    padding: 1em 2em;
+    background-color: $red;
+    color: $white-smoke;
+  }
+}
+
+.elementor-author-box__text {
+  .elementor-author-box__button {
+    font-weight: 500 !important;
+  }
+}
