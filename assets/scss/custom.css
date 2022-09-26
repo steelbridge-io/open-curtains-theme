@@ -203,6 +203,64 @@ a.elementor-post__read-more {
   color: #fff !important;
 }
 
+.bp-messages-content #bp-message-thread-list li:nth-child(2n) .message-content {
+  color: #000;
+  padding: 0.5em;
+}
+
+.submit #send_reply_button {
+  background-color: #b10000;
+  padding: 1em 2em;
+  color: #f5f5f5;
+  border: none;
+}
+
+.message-metadata a strong {
+  color: #b10000;
+}
+.message-metadata time {
+  color: #f5f5f5 !important;
+}
+
+.user-link {
+  color: #b10000;
+}
+
+.thread-subject {
+  color: #b10000;
+}
+.thread-subject a.subject {
+  color: #b10000 !important;
+}
+
+.bp-messages-content #bp-message-thread-list .message-metadata {
+  box-shadow: 0 1px 3px 0 #ccc !important;
+}
+
+.bp-messages-search-form {
+  max-height: 44.5px;
+}
+
+#message-threads li .thread-to .num-recipients {
+  color: #f5f5f5 !important;
+}
+
+#message-threads li .thread-content .excerpt {
+  color: #f5f5f5 !important;
+}
+
+.actions .message-action-view.bp-tooltip.bp-icons {
+  color: #b10000;
+}
+
+.preview-message p {
+  color: #000 !important;
+}
+
+#forums-personal-li {
+  display: none !important;
+}
+
 /** Log In */
 #login-form .login-username,
 #login-form .login-password,
@@ -255,6 +313,19 @@ a.elementor-post__read-more {
 
 #object-nav ul li a {
   color: #b10000;
+}
+
+#subnav li a {
+  color: #b10000;
+}
+
+.bp-messages-content {
+  background-color: #343840;
+  padding: 0.5em;
+}
+
+#message-threads .thread-item {
+  padding: 1em;
 }
 
 /** Global */
@@ -416,6 +487,18 @@ bdi {
 .return-to-shop a.button {
   background-color: #b10000 !important;
   color: #f5f5f5 !important;
+}
+
+.product-name .product-quantity {
+  color: #000;
+}
+
+#payment li label {
+  color: #f5f5f5 !important;
+}
+
+#stripe-payment-data p {
+  color: #f5f5f5;
 }
 
 /** Footer */
@@ -811,6 +894,19 @@ body.post-type-archive-product #Wrapper #Content .products_wrapper {
 /** Job Post */
 .job-post-wrapper {
   background-color: transparent !important;
+}
+
+#contact-author {
+  margin: 2em 0;
+}
+#contact-author a {
+  padding: 1em 2em;
+  background-color: #b10000;
+  color: #f5f5f5;
+}
+
+.elementor-author-box__text .elementor-author-box__button {
+  font-weight: 500 !important;
 }
 
 /** Products */

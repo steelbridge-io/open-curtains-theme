@@ -90,3 +90,23 @@ bdi {
     color: $white-smoke !important;
   }
 }
+
+.product-name {
+  .product-quantity {
+    color: $black;
+  }
+}
+
+#payment {
+  li {
+    label {
+      color: $white-smoke !important;
+    }
+  }
+}
+
+#stripe-payment-data {
+  p {
+    color: $white-smoke;
+  }
+}
