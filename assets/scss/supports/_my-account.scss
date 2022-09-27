@@ -91,3 +91,13 @@
 #forums-personal-li {
   display: none !important;
 }
+
+@media (min-width: 993px ) {
+  body .wpuf-dashboard-container .wpuf-dashboard-navigation {
+    width: 25% !important;
+  }
+
+  body .wpuf-dashboard-container .wpuf-dashboard-content {
+    width: 75% !important;
+  }
+}
