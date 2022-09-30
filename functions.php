@@ -22,6 +22,9 @@ define('WHITE_LABEL', false);
  
 add_filter( 'jetpack_just_in_time_msgs', '_return_false' );
 
+add_filter('jpeg_quality', function($arg){return 100;});
+add_filter('wp_editor_set_quality', function($arg){return 100;});
+
 /**
  * Add Shortcodes
  */
@@ -58,9 +61,9 @@ function mfnch_enqueue_styles()
 }
 
 	// enqueue scripts
-
 	wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', array(), '5.2.0', true );
   wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/assets/js/custom.js', array(), '', true );
+
 
 add_action('wp_enqueue_scripts', 'mfnch_enqueue_styles', 101);
 
@@ -131,3 +134,28 @@ remove_filter('get_the_excerpt', 'wp_trim_excerpt');
 
 /* now, add your own filter */
 add_filter('get_the_excerpt', 'lt_html_excerpt');
+
+/**
+ * Disable Thumbnail Sizes
+ */
+function shapeSpace_disable_thumbnail_images($sizes) {
+
+ unset($sizes['thumbnail']); // disable thumbnail size
+ return $sizes;
+
+}
+add_action('intermediate_image_sizes_advanced', 'shapeSpace_disable_thumbnail_images');
+
+add_action( 'pre-upload-ui', function() {
+ ?><h4>
+ <?php esc_html_e( 'Uploads can take a minute or more depending on image size and internet conditions.', 'wpse' );?>
+ </h4>
+ <?php
+});
+
+add_action( 'post-upload-ui', function() {
+ ?><h4>
+ <?php esc_html_e( '', 'wpse' );?>
+ </h4>
+ <?php
+});
