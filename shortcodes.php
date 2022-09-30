@@ -71,3 +71,4 @@ function wpc_elementor_shortcode( $atts ) {
 <?php }
 }
 //add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');
+ 
