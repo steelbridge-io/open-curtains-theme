@@ -1123,4 +1123,13 @@ body.page-id-64 #place_order {
   border-radius: 0 !important;
 }
 
+/** Registration */
+#pass-strength-result {
+  color: #000;
+}
+
+.wppb-field-error {
+  background-color: #b10000 !important;
+}
+
 /*# sourceMappingURL=custom.css.map */
