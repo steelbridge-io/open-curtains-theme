@@ -73,6 +73,10 @@ a.elementor-post__read-more {
   margin: 1.618em auto;
 }
 
+.talent-card {
+  background-color: #000;
+}
+
 .talent-card.card {
   border: none;
 }
@@ -341,6 +345,12 @@ a.elementor-post__read-more {
   background: transparent;
 }
 
+/*#placeholder-img {
+  background-image: url('/images/place-holder.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}*/
 /** Sign Up
 --------------------- */
 #sign-up-page h4 a {
@@ -553,12 +563,23 @@ ul.ftr-scl {
   }
 }
 /** Actor Listing */
+.wppb-ul-slider-range.ui-slider {
+  width: 90%;
+}
+
 .card-row.row {
   margin-top: 1.618em;
 }
 
+.wppb-faceted-list li:first-child {
+  flex-basis: 26% !important;
+  flex-grow: 0 !important;
+  width: 18% !important;
+}
+
 .faceted-menus ul.wppb-faceted-list {
   display: flex;
+  flex-basis: 25%;
   flex-wrap: wrap;
   height: 400px;
   align-content: space-between;
@@ -595,6 +616,42 @@ ul.ftr-scl {
   width: 100% !important;
 }
 
+/** max width */
+@media (max-width: 991.98px) {
+  .faceted-menus ul.wppb-faceted-list {
+    display: initial !important;
+  }
+  .faceted-menus ul.wppb-faceted-list li {
+    display: initial;
+    width: 100%;
+    float: none !important;
+    padding: 0;
+    margin: 0;
+  }
+  .ul.wppb-faceted-list > li {
+    float: none !important;
+    padding: 0;
+  }
+  .faceted-menus ul.wppb-faceted-list li:nth-child(n+2) {
+    display: table;
+    flex-basis: initial;
+    flex-grow: initial;
+    width: 100%;
+  }
+  .wppb-facet-filter.wppb-facet-range {
+    width: 100%;
+  }
+  #wppb-facet-age,
+#wppb-facet-talent_weight,
+#wppb-facet-height {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/** min width */
 /** Single Post */
 .single-post .product_image_wrapper.column.one-second {
   display: none;
@@ -1130,6 +1187,11 @@ body.page-id-64 #place_order {
 
 .wppb-field-error {
   background-color: #b10000 !important;
+}
+
+/** Navigation */
+.icon-menu-fine {
+  color: #b10000;
 }
 
 /*# sourceMappingURL=custom.css.map */

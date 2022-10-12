@@ -1,12 +1,23 @@
 /** Actor Listing */
 
+.wppb-ul-slider-range.ui-slider {
+  width: 90%;
+}
+
 .card-row.row {
   margin-top: 1.618em;
+}
+
+.wppb-faceted-list li:first-child {
+  flex-basis: 26% !important;
+  flex-grow: 0 !important;
+  width: 18% !important;
 }
 
 .faceted-menus {
   ul.wppb-faceted-list {
     display: flex;
+    flex-basis: 25%;
     flex-wrap: wrap;
     height: 400px;
     align-content: space-between;
@@ -47,3 +58,65 @@
     width: 100% !important;
   }
 }
+
+/** max width */
+@media (max-width: 1399.98px) { }
+
+@media (max-width: 1199.98px) { }
+
+@media (max-width: 991.98px) {
+  .faceted-menus ul.wppb-faceted-list {
+    display: initial !important;
+  }
+  .faceted-menus ul.wppb-faceted-list li {
+    display: initial;
+    width: 100%;
+    float: none !important;
+    padding: 0;
+    margin: 0;
+  }
+  .ul.wppb-faceted-list > li {
+    float: none !important;
+    padding: 0;
+  }
+  .faceted-menus ul.wppb-faceted-list li:nth-child(n+2) {
+    display: table;
+    flex-basis: initial;
+    flex-grow: initial;
+    width: 100%;
+  }
+
+  .wppb-facet-filter.wppb-facet-range {
+    width: 100%;
+  }
+
+  #wppb-facet-age,
+  #wppb-facet-talent_weight,
+  #wppb-facet-height {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+}
+
+@media (max-width: 767.98px) { }
+
+@media (max-width: 575.98px) { }
+
+
+/** min width */
+@media (min-width: 576px) { }
+
+@media (min-width: 768px) { }
+
+@media (min-width: 992px) { }
+
+@media (min-width: 1200px) { }
+
+@media (min-width: 1400px) { }
+
+
+
