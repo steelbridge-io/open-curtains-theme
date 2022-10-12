@@ -13,8 +13,13 @@
  */
 
 // white label
-
 define('WHITE_LABEL', false);
+
+/**
+ * Replace default avatar
+ */
+define ( 'BP_AVATAR_DEFAULT', 'https://opencurtainscasting.com/images/place-holder.png' );
+define ( 'BP_AVATAR_DEFAULT_THUMB', 'https://opencurtainscasting.com/images/place-holder.png' );
 
 /**
  * Disable JetPack Upsells
@@ -52,7 +57,7 @@ function mfnch_enqueue_styles()
 
 	wp_enqueue_style('bootstrap', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css', array(), '5.2.0', 'all');
 
-  wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/custom.css');
+    wp_enqueue_style('custom', get_stylesheet_directory_uri() . '/assets/scss/custom.css');
 
 	// enqueue the child stylesheet
 
@@ -62,7 +67,7 @@ function mfnch_enqueue_styles()
 
 	// enqueue scripts
 	wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', array(), '5.2.0', true );
-  wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/assets/js/custom.js', array(), '', true );
+    wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/assets/js/custom.js', array(), '', true );
 
 
 add_action('wp_enqueue_scripts', 'mfnch_enqueue_styles', 101);
