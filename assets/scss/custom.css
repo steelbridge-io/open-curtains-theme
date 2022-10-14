@@ -171,9 +171,19 @@ a.elementor-post__read-more {
 #head-shot.row col-lg-4 {
   margin: 0.5em;
 }
+#head-shot.row .col-lg-8 a.btn-red {
+  margin: 0 auto;
+  display: block;
+  width: 88%;
+}
 
 .profile a {
   color: #b10000;
+}
+
+#profile-data.container {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
 }
 
 /*.my-profile {

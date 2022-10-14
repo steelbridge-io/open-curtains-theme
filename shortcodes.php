@@ -71,4 +71,32 @@ function wpc_elementor_shortcode( $atts ) {
 <?php }
 }
 //add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');
- 
+
+
+ /**
+  * Display Subscribe Button Options. There are two buttons. Use the subscribe_btn_alt for inline placement.
+  */
+
+$user = get_userdata( $user_id );
+$user_roles = $user->roles;
+
+function add_subscribe_option()
+{
+ if (in_array('customer', $user_roles, true)) {
+  // Do something.
+  return '<div class="thanks-sub"><h3>Thanks for being a subscriber!</h3></div>';
+ } else {
+  return '<a class="btn btn-red" href="/shop" title="Subscribe">Subscribe Here!</a>';
+ }
+}
+add_shortcode('subscribe_btn', 'add_subscribe_option' );
+
+function add_subscribe_option_alt()
+{
+ if (in_array('customer', $user_roles, true)) {
+  return '';
+ } else {
+  return '<a class="btn btn-red" href="/shop" title="Subscribe">To access additional profile picture uploads, subscribe here!</a>';
+ }
+}
+add_shortcode('subscribe_btn_alt', 'add_subscribe_option_alt' );
