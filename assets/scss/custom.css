@@ -1204,4 +1204,36 @@ body.page-id-64 #place_order {
   color: #b10000;
 }
 
+/** Pagination */
+#userlisting_pagination a.page-link {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: auto 5px 20px;
+  width: 30px;
+  height: 40px;
+}
+#userlisting_pagination a.selected {
+  font-size: 1.7rem;
+  text-align: center;
+  margin: auto 5px 20px;
+  width: 30px;
+  height: 40px;
+  color: #f5f5f5;
+  background-color: #b10000;
+}
+#userlisting_pagination a.page-link.pageLink_fist,
+#userlisting_pagination a.page-link.pageLink_previous,
+#userlisting_pagination a.page-link.pageLink_next,
+#userlisting_pagination a.page-link.pageLink_last {
+  font-size: 0 !important;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #CACDD6;
+  background-color: #FFFFFF;
+  margin: 0 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*# sourceMappingURL=custom.css.map */
