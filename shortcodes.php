@@ -77,6 +77,8 @@ function wpc_elementor_shortcode( $atts ) {
   * Display Subscribe Button Options. There are two buttons. Use the subscribe_btn_alt for inline placement.
   */
 
+ global $user_id;
+
 $user = get_userdata( $user_id );
 $user_roles = $user->roles;
 

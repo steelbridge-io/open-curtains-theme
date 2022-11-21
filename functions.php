@@ -66,11 +66,16 @@ function mfnch_enqueue_styles()
 }
 
 	// enqueue scripts
-	wp_enqueue_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', array(), '5.2.0', true );
-    wp_enqueue_script('custom-js', get_stylesheet_directory_uri() . '/assets/js/custom.js', array(), '', true );
+    if (!is_admin()) {
+     wp_register_script('bootstrap-js', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js', array('jquery'), '5.2.0', true);
+     wp_enqueue_script('bootstrap-js');
+     wp_register_script('custom-js', get_stylesheet_directory_uri() . '/assets/js/custom.js', array('jquery'), '',
+      true);
+     wp_enqueue_script('custom-js');
+    }
 
 
-add_action('wp_enqueue_scripts', 'mfnch_enqueue_styles', 101);
+add_action('wp_enqueue_scripts', 'mfnch_enqueue_styles');
 
 /**
  * Load Textdomain
@@ -164,3 +169,9 @@ add_action( 'post-upload-ui', function() {
  </h4>
  <?php
 });
+
+// Function to change sender name
+add_filter( 'wp_mail_from_name', 'occ_sender_name' );
+function occ_sender_name( $original_email_from ) {
+ return 'Open Curtains Casting';
+}
