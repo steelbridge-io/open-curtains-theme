@@ -1204,6 +1204,10 @@ body.page-id-64 #place_order {
   color: #b10000;
 }
 
+#Top_bar {
+  background-color: #000 !important;
+}
+
 /** Pagination */
 #userlisting_pagination a.page-link {
   font-size: 1.7rem;
