@@ -1,6 +1,16 @@
 /** Buttons
 --------------------- */
 
+.login-button-link {
+  background-color: $red;
+  padding: 1em 2em;
+  color: $white-smoke;
+}
+
+a.login-button-link:hover {
+  color: $white-smoke !important;
+}
+
 .btn {
   &.btn-red {
     background: $red;

@@ -50,7 +50,6 @@ get_header();
          global $post;
          global $current_user;
 
-      echo '<h1>Hiiiiiiii!</h1>';
       if ($post->post_author == $current_user->ID) { ?>
           <p><a onclick="return confirm('Are you SURE you want to delete this post?')" href="<?php echo get_delete_post_link( $post->ID ) ?>">Delete post</a></p>
       <?php }

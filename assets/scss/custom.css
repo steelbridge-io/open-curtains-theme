@@ -1,4 +1,9 @@
-/** Colors */ /** Typography */ /** Header */
+/** Colors */ /** Typography */
+.elementor-element.elementor-element-bc0b21c .elementor-widget-container h1 {
+  color: #f5f5f5 !important;
+}
+
+/** Header */
 #header_cart {
   color: #fff !important;
   display: none !important;
@@ -387,6 +392,16 @@ a.elementor-post__read-more {
 
 /** Buttons
 --------------------- */
+.login-button-link {
+  background-color: #b10000;
+  padding: 1em 2em;
+  color: #f5f5f5;
+}
+
+a.login-button-link:hover {
+  color: #f5f5f5 !important;
+}
+
 .btn.btn-red {
   background: #b10000;
   color: #f5f5f5 !important;
